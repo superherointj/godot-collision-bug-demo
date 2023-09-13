@@ -12,6 +12,7 @@ up_direction = Vector2(0, 1)
 
 [node name="BoxB" parent="." instance=ExtResource("2_60ed6")]
 position = Vector2(181, 161)
+motion_mode = 1
 
 [node name="Label" type="Label" parent="."]
 offset_left = 32.0

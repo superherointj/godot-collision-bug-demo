@@ -36,5 +36,6 @@ func _physics_process(delta):
 	move_and_slide()
 ```
 
-## Bug or not?
-Let me know what you think this is.
+## Resolution
+
+[Codimon](https://discord.com/channels/212250894228652034/735042396277964870/1151484226651291728) hinted that CharacterBody Motion Mode was set to Grounded (while it should have been `floating``). Issue is now solved.
