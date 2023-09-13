@@ -6,13 +6,11 @@
 [node name="Demo" type="Node2D"]
 
 [node name="BoxA" parent="." instance=ExtResource("1_s2amu")]
-z_index = 4
 position = Vector2(100, 150)
 motion_mode = 1
 up_direction = Vector2(0, 1)
 
 [node name="BoxB" parent="." instance=ExtResource("2_60ed6")]
-z_index = 4
 position = Vector2(181, 161)
 
 [node name="Label" type="Label" parent="."]
